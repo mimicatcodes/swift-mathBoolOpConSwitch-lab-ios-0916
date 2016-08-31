@@ -30,6 +30,8 @@ class ViewController: UIViewController {
     
     //Question 2
     
+    // ------- using if/else only -------
+    
 //    func passwordCombo(username:String, password:Int)->String{
 //        if (username == "Jerry" || username == "Elaine" || username == "Michael") && (password%3 == 0) {return "Welcome!"
 //            
@@ -58,7 +60,36 @@ class ViewController: UIViewController {
             }
         }
         
-        
+//    
+//    // ---- using switch only ----
+//    func passwordCombo(username:String, password:Int)->String{
+//        switch ((username == "Jerry" || username == "Elaine" || username == "Michael")) && (password%3 == 0) {
+//        case true:
+//            return "Welcome!"
+//        default:
+//            return "Access Denied"
+//        }
+//    }
+    
+    
+    
+    // ----- using two arguments -----
+    
+//    func passwordCombo(username:String, password:Int)->String{
+//        switch (username, password%3){
+//        case ("Jerry", 0):
+//            return "Welcome!"
+//        case("Elaine", 0):
+//            return "Welcome!"
+//        case("Michael", 0):
+//            return "Welcome"
+//        default:
+//            return "Access Denied"
+//        }
+//    }
+//    
+    
+
     
     //Question 3
     
